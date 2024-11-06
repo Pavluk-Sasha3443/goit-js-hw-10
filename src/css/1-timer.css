@@ -1,0 +1,60 @@
+input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+input:hover {
+  border: 1px solid #000;
+}
+
+input:active {
+  border: 1px solid;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #03e9f4;
+  color: #040404;
+}
+
+button:hover {
+  background: #03e9f4;
+  color: black;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px;
+}
+
+.container-timer {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+  padding-left: 40px;
+}
+
+.timer .field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
